@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		598CE1E01FEAB0A0000ABDFA /* UIButton+Addittions.m in Sources */ = {isa = PBXBuildFile; fileRef = 598CE1DF1FEAB0A0000ABDFA /* UIButton+Addittions.m */; };
+		5995C8031FEA9E65000B622C /* NotesRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995C8021FEA9E65000B622C /* NotesRootViewController.m */; };
+		5995C80D1FEAA15F000B622C /* NotesBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995C80C1FEAA15F000B622C /* NotesBaseViewController.m */; };
+		5995C8121FEAA699000B622C /* CommonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995C8101FEAA699000B622C /* CommonMethod.m */; };
+		5995C8241FEAA6F7000B622C /* KBArrayAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995C8151FEAA6F7000B622C /* KBArrayAddtions.m */; };
+		5995C8251FEAA6F7000B622C /* KBNSDictionaryAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995C8171FEAA6F7000B622C /* KBNSDictionaryAddtions.m */; };
+		5995C8261FEAA6F7000B622C /* KBNSObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995C8191FEAA6F7000B622C /* KBNSObjectAdditions.m */; };
+		5995C8271FEAA6F7000B622C /* KBNSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995C81B1FEAA6F7000B622C /* KBNSStringAdditions.m */; };
+		5995C8291FEAA6F7000B622C /* KBUIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995C81F1FEAA6F7000B622C /* KBUIImageAdditions.m */; };
+		5995C82A1FEAA6F7000B622C /* KBUIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995C8211FEAA6F7000B622C /* KBUIViewAdditions.m */; };
+		5995C82B1FEAA6F7000B622C /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995C8231FEAA6F7000B622C /* UIBarButtonItem+Extension.m */; };
 		F7A0B27E1FB058C400FE3B7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A0B27D1FB058C400FE3B7B /* AppDelegate.m */; };
-		F7A0B2811FB058C400FE3B7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A0B2801FB058C400FE3B7B /* ViewController.m */; };
 		F7A0B2841FB058C400FE3B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A0B2821FB058C400FE3B7B /* Main.storyboard */; };
 		F7A0B2871FB058C400FE3B7B /* TravelNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7A0B2851FB058C400FE3B7B /* TravelNotes.xcdatamodeld */; };
 		F7A0B2891FB058C400FE3B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A0B2881FB058C400FE3B7B /* Assets.xcassets */; };
@@ -17,11 +27,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		598CE1DE1FEAB0A0000ABDFA /* UIButton+Addittions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Addittions.h"; sourceTree = "<group>"; };
+		598CE1DF1FEAB0A0000ABDFA /* UIButton+Addittions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addittions.m"; sourceTree = "<group>"; };
+		5995C8011FEA9E65000B622C /* NotesRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesRootViewController.h; sourceTree = "<group>"; };
+		5995C8021FEA9E65000B622C /* NotesRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesRootViewController.m; sourceTree = "<group>"; };
+		5995C80B1FEAA15F000B622C /* NotesBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesBaseViewController.h; sourceTree = "<group>"; };
+		5995C80C1FEAA15F000B622C /* NotesBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesBaseViewController.m; sourceTree = "<group>"; };
+		5995C80F1FEAA238000B622C /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		5995C8101FEAA699000B622C /* CommonMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMethod.m; sourceTree = "<group>"; };
+		5995C8111FEAA699000B622C /* CommonMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMethod.h; sourceTree = "<group>"; };
+		5995C8141FEAA6F7000B622C /* KBArrayAddtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBArrayAddtions.h; sourceTree = "<group>"; };
+		5995C8151FEAA6F7000B622C /* KBArrayAddtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBArrayAddtions.m; sourceTree = "<group>"; };
+		5995C8161FEAA6F7000B622C /* KBNSDictionaryAddtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNSDictionaryAddtions.h; sourceTree = "<group>"; };
+		5995C8171FEAA6F7000B622C /* KBNSDictionaryAddtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNSDictionaryAddtions.m; sourceTree = "<group>"; };
+		5995C8181FEAA6F7000B622C /* KBNSObjectAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNSObjectAdditions.h; sourceTree = "<group>"; };
+		5995C8191FEAA6F7000B622C /* KBNSObjectAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNSObjectAdditions.m; sourceTree = "<group>"; };
+		5995C81A1FEAA6F7000B622C /* KBNSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNSStringAdditions.h; sourceTree = "<group>"; };
+		5995C81B1FEAA6F7000B622C /* KBNSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNSStringAdditions.m; sourceTree = "<group>"; };
+		5995C81E1FEAA6F7000B622C /* KBUIImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBUIImageAdditions.h; sourceTree = "<group>"; };
+		5995C81F1FEAA6F7000B622C /* KBUIImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBUIImageAdditions.m; sourceTree = "<group>"; };
+		5995C8201FEAA6F7000B622C /* KBUIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBUIViewAdditions.h; sourceTree = "<group>"; };
+		5995C8211FEAA6F7000B622C /* KBUIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBUIViewAdditions.m; sourceTree = "<group>"; };
+		5995C8221FEAA6F7000B622C /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		5995C8231FEAA6F7000B622C /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		F7A0B2791FB058C400FE3B7B /* TravelNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A0B27C1FB058C400FE3B7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7A0B27D1FB058C400FE3B7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7A0B27F1FB058C400FE3B7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F7A0B2801FB058C400FE3B7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F7A0B2831FB058C400FE3B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7A0B2861FB058C400FE3B7B /* TravelNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelNotes.xcdatamodel; sourceTree = "<group>"; };
 		F7A0B2881FB058C400FE3B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +72,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5995C8001FEA9DAB000B622C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0B27C1FB058C400FE3B7B /* AppDelegate.h */,
+				F7A0B27D1FB058C400FE3B7B /* AppDelegate.m */,
+				5995C8011FEA9E65000B622C /* NotesRootViewController.h */,
+				5995C8021FEA9E65000B622C /* NotesRootViewController.m */,
+				F7A0B2821FB058C400FE3B7B /* Main.storyboard */,
+				F7A0B28A1FB058C400FE3B7B /* LaunchScreen.storyboard */,
+			);
+			name = Main;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5995C8081FEAA15F000B622C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5995C8131FEAA6F7000B622C /* Additions */,
+				5995C8091FEAA15F000B622C /* Common */,
+				5995C80A1FEAA15F000B622C /* Custom */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5995C8091FEAA15F000B622C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5995C80F1FEAA238000B622C /* CommonDefine.h */,
+				5995C8111FEAA699000B622C /* CommonMethod.h */,
+				5995C8101FEAA699000B622C /* CommonMethod.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5995C80A1FEAA15F000B622C /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5995C80B1FEAA15F000B622C /* NotesBaseViewController.h */,
+				5995C80C1FEAA15F000B622C /* NotesBaseViewController.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5995C8131FEAA6F7000B622C /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				5995C8141FEAA6F7000B622C /* KBArrayAddtions.h */,
+				5995C8151FEAA6F7000B622C /* KBArrayAddtions.m */,
+				5995C8161FEAA6F7000B622C /* KBNSDictionaryAddtions.h */,
+				5995C8171FEAA6F7000B622C /* KBNSDictionaryAddtions.m */,
+				5995C8181FEAA6F7000B622C /* KBNSObjectAdditions.h */,
+				5995C8191FEAA6F7000B622C /* KBNSObjectAdditions.m */,
+				5995C81A1FEAA6F7000B622C /* KBNSStringAdditions.h */,
+				5995C81B1FEAA6F7000B622C /* KBNSStringAdditions.m */,
+				598CE1DE1FEAB0A0000ABDFA /* UIButton+Addittions.h */,
+				598CE1DF1FEAB0A0000ABDFA /* UIButton+Addittions.m */,
+				5995C81E1FEAA6F7000B622C /* KBUIImageAdditions.h */,
+				5995C81F1FEAA6F7000B622C /* KBUIImageAdditions.m */,
+				5995C8201FEAA6F7000B622C /* KBUIViewAdditions.h */,
+				5995C8211FEAA6F7000B622C /* KBUIViewAdditions.m */,
+				5995C8221FEAA6F7000B622C /* UIBarButtonItem+Extension.h */,
+				5995C8231FEAA6F7000B622C /* UIBarButtonItem+Extension.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
 		F7A0B2701FB058C400FE3B7B = {
 			isa = PBXGroup;
 			children = (
@@ -60,13 +157,9 @@
 		F7A0B27B1FB058C400FE3B7B /* TravelNotes */ = {
 			isa = PBXGroup;
 			children = (
-				F7A0B27C1FB058C400FE3B7B /* AppDelegate.h */,
-				F7A0B27D1FB058C400FE3B7B /* AppDelegate.m */,
-				F7A0B27F1FB058C400FE3B7B /* ViewController.h */,
-				F7A0B2801FB058C400FE3B7B /* ViewController.m */,
-				F7A0B2821FB058C400FE3B7B /* Main.storyboard */,
+				5995C8001FEA9DAB000B622C /* Main */,
+				5995C8081FEAA15F000B622C /* Library */,
 				F7A0B2881FB058C400FE3B7B /* Assets.xcassets */,
-				F7A0B28A1FB058C400FE3B7B /* LaunchScreen.storyboard */,
 				F7A0B28D1FB058C400FE3B7B /* Info.plist */,
 				F7A0B28E1FB058C400FE3B7B /* main.m */,
 				F7A0B2851FB058C400FE3B7B /* TravelNotes.xcdatamodeld */,
@@ -145,9 +238,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5995C80D1FEAA15F000B622C /* NotesBaseViewController.m in Sources */,
+				5995C8031FEA9E65000B622C /* NotesRootViewController.m in Sources */,
 				F7A0B2871FB058C400FE3B7B /* TravelNotes.xcdatamodeld in Sources */,
-				F7A0B2811FB058C400FE3B7B /* ViewController.m in Sources */,
+				5995C82A1FEAA6F7000B622C /* KBUIViewAdditions.m in Sources */,
+				5995C8121FEAA699000B622C /* CommonMethod.m in Sources */,
+				5995C8271FEAA6F7000B622C /* KBNSStringAdditions.m in Sources */,
 				F7A0B28F1FB058C400FE3B7B /* main.m in Sources */,
+				5995C82B1FEAA6F7000B622C /* UIBarButtonItem+Extension.m in Sources */,
+				598CE1E01FEAB0A0000ABDFA /* UIButton+Addittions.m in Sources */,
+				5995C8261FEAA6F7000B622C /* KBNSObjectAdditions.m in Sources */,
+				5995C8291FEAA6F7000B622C /* KBUIImageAdditions.m in Sources */,
+				5995C8251FEAA6F7000B622C /* KBNSDictionaryAddtions.m in Sources */,
+				5995C8241FEAA6F7000B622C /* KBArrayAddtions.m in Sources */,
 				F7A0B27E1FB058C400FE3B7B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,10 +386,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9K6294B74;
 				INFOPLIST_FILE = TravelNotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xunmei.TravelNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TravelNotes.notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -297,10 +401,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9K6294B74;
 				INFOPLIST_FILE = TravelNotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xunmei.TravelNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TravelNotes.notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
