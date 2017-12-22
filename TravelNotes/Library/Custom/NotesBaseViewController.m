@@ -23,6 +23,7 @@
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     self.view.backgroundColor = CommonColor_Navi_Bg;
 
+    self.isBarTintClearColor = YES;
     _showCustomLeftBarButton = YES;
     self.titleColor = [UIColor whiteColor];
     self.barTintColor = CommonColor_Navi_Bg;
@@ -45,8 +46,11 @@
 
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
 
-    self.automaticallyAdjustsScrollViewInsets = NO;
-    self.parentViewController.automaticallyAdjustsScrollViewInsets = NO;
+    if (@available(iOS 11.0, *)) {
+    } else {
+        self.automaticallyAdjustsScrollViewInsets = NO;
+        self.parentViewController.automaticallyAdjustsScrollViewInsets = NO;
+    }
 
     self.originY = self.navigationController.navigationBar.bottom;
 }
@@ -99,7 +103,6 @@
     [super viewWillAppear:animated];
 
     self.showCustomLeftBarButton = self.showCustomLeftBarButton;
-    //    [[UIApplication sharedApplication] setStatusBarStyle:self.statusBarStyle];
     if (!_isBarTintClearColor) {
         [self.navigationController.navigationBar setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
 
