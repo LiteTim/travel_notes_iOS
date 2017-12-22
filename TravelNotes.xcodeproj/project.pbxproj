@@ -126,8 +126,6 @@
 		594024CD1FED4B76006174A5 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				594024F61FED5107006174A5 /* MBProgressHUD */,
-				594024F21FED508F006174A5 /* Reachability */,
 				594024D91FED4B8F006174A5 /* HUDLoadingView */,
 				594024CE1FED4B82006174A5 /* NetWorking */,
 			);
@@ -160,6 +158,8 @@
 		594024DD1FED4CAC006174A5 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				594024F21FED508F006174A5 /* Reachability */,
+				594024F61FED5107006174A5 /* MBProgressHUD */,
 				594024DE1FED4F95006174A5 /* AFNetworking */,
 			);
 			path = Framework;
