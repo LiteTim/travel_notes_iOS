@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "NotesRootViewController.h"
+#import "AppManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // bugly初始化
+    [AppManager startWithBuglyAppId:@"a25dfe27e6"];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     NotesRootViewController *rvc = [[NotesRootViewController alloc] init];
