@@ -7,6 +7,7 @@
 //
 
 #import "NotesRootViewController.h"
+#import "TNMineViewController.h"
 
 @interface NotesRootViewController ()
 
@@ -19,16 +20,16 @@
     [super viewDidLoad];
 
     UIViewController *mainVC = [[UIViewController alloc] init];
-    mainVC.view.backgroundColor = RandomColor;
-    [self addOneChildVc:mainVC title:@"首页" imageName:@"" selectedImageName:@""];
+    mainVC.view.backgroundColor = KBRandomColor;
+    [self addOneChildVc:mainVC title:NSLocalizedString(@"String_NotesRoot_Main", nil) imageName:@"" selectedImageName:@""];
 
     UIViewController *notesVC = [[UIViewController alloc] init];
-    notesVC.view.backgroundColor = RandomColor;
-    [self addOneChildVc:notesVC title:@"日记" imageName:@"" selectedImageName:@""];
+    notesVC.view.backgroundColor = KBRandomColor;
+    [self addOneChildVc:notesVC title:NSLocalizedString(@"String_NotesRoot_Notes", nil) imageName:@"" selectedImageName:@""];
 
-    UIViewController *myVC = [[UIViewController alloc] init];
-    myVC.view.backgroundColor = RandomColor;
-    [self addOneChildVc:myVC title:@"我的" imageName:@"" selectedImageName:@""];
+    TNMineViewController *mineVC = [[TNMineViewController alloc] init];
+    mineVC.view.backgroundColor = RGBColor(233, 233, 233);
+    [self addOneChildVc:mineVC title:NSLocalizedString(@"String_NotesRoot_Mine", nil) imageName:@"" selectedImageName:@""];
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:HEXCOLOR(0x797979)}
                                              forState:UIControlStateNormal];
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:CommonColor_SkyBlue}

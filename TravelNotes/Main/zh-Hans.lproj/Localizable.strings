@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  TravelNotes
+
+  Created by xunmei on 2017/12/26.
+  Copyright © 2017年 xunmei. All rights reserved.
+*/
+
+
+
+//NotesRootViewController
+"String_NotesRoot_Main" = "首页";
+"String_NotesRoot_Notes" = "日记";
+"String_NotesRoot_Mine" = "我的";

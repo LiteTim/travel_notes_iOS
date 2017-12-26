@@ -40,7 +40,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
 #define RGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 #define RGBColorAlpha(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 // 随机颜色
-#define RandomColor RGBColor(arc4random() % 256, arc4random() % 256, arc4random() % 256)
+#define KBRandomColor RGBColor(arc4random() % 256, arc4random() % 256, arc4random() % 256)
 //  天蓝色
 #define CommonColor_SkyBlue            RGBColor(69, 181, 244)
 //  浅绿色

@@ -40,6 +40,9 @@
 		F78954041FF21743007BE138 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F78954031FF21743007BE138 /* libz.tbd */; };
 		F78954061FF21752007BE138 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78954051FF21752007BE138 /* Security.framework */; };
 		F78954081FF2175B007BE138 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78954071FF2175B007BE138 /* SystemConfiguration.framework */; };
+		F78954101FF21B57007BE138 /* TNMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F789540F1FF21B57007BE138 /* TNMineViewController.m */; };
+		F789541A1FF22530007BE138 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F789541C1FF22530007BE138 /* InfoPlist.strings */; };
+		F78954211FF2260F007BE138 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F78954231FF2260F007BE138 /* Localizable.strings */; };
 		F7A0B2871FB058C400FE3B7B /* TravelNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7A0B2851FB058C400FE3B7B /* TravelNotes.xcdatamodeld */; };
 		F7A0B2891FB058C400FE3B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A0B2881FB058C400FE3B7B /* Assets.xcassets */; };
 		F7A0B28F1FB058C400FE3B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A0B28E1FB058C400FE3B7B /* main.m */; };
@@ -108,6 +111,19 @@
 		F78954031FF21743007BE138 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F78954051FF21752007BE138 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F78954071FF2175B007BE138 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F789540E1FF21B57007BE138 /* TNMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNMineViewController.h; sourceTree = "<group>"; };
+		F789540F1FF21B57007BE138 /* TNMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNMineViewController.m; sourceTree = "<group>"; };
+		F78954121FF22074007BE138 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		F78954131FF221C0007BE138 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F78954141FF221C0007BE138 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		F78954151FF221C9007BE138 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F78954161FF221C9007BE138 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		F789541B1FF22530007BE138 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F789541D1FF22532007BE138 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F789541E1FF22534007BE138 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F78954221FF2260F007BE138 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F78954241FF22611007BE138 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F78954251FF22612007BE138 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F7A0B2791FB058C400FE3B7B /* TravelNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A0B2861FB058C400FE3B7B /* TravelNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelNotes.xcdatamodel; sourceTree = "<group>"; };
 		F7A0B2881FB058C400FE3B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +156,7 @@
 				594024C51FEABA99006174A5 /* Main.storyboard */,
 				594024C71FEABA99006174A5 /* NotesRootViewController.h */,
 				594024C81FEABA99006174A5 /* NotesRootViewController.m */,
+				F78954231FF2260F007BE138 /* Localizable.strings */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -308,6 +325,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F78954091FF21B0C007BE138 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F789540A1FF21B0C007BE138 /* Mine */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F789540A1FF21B0C007BE138 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F789540B1FF21B0C007BE138 /* Controller */,
+				F789540C1FF21B0C007BE138 /* Model */,
+				F789540D1FF21B0C007BE138 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F789540B1FF21B0C007BE138 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F789540E1FF21B57007BE138 /* TNMineViewController.h */,
+				F789540F1FF21B57007BE138 /* TNMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F789540C1FF21B0C007BE138 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F789540D1FF21B0C007BE138 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F7A0B2701FB058C400FE3B7B = {
 			isa = PBXGroup;
 			children = (
@@ -331,9 +389,11 @@
 				594024C01FEABA99006174A5 /* Main */,
 				5995C8081FEAA15F000B622C /* Library */,
 				594024CD1FED4B76006174A5 /* Tool */,
+				F78954091FF21B0C007BE138 /* Class */,
 				594024DD1FED4CAC006174A5 /* Framework */,
 				F7A0B2881FB058C400FE3B7B /* Assets.xcassets */,
 				F7A0B28D1FB058C400FE3B7B /* Info.plist */,
+				F789541C1FF22530007BE138 /* InfoPlist.strings */,
 				F7A0B28E1FB058C400FE3B7B /* main.m */,
 				F7A0B2851FB058C400FE3B7B /* TravelNotes.xcdatamodeld */,
 			);
@@ -382,6 +442,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = F7A0B2701FB058C400FE3B7B;
 			productRefGroup = F7A0B27A1FB058C400FE3B7B /* Products */;
@@ -398,7 +460,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78954211FF2260F007BE138 /* Localizable.strings in Resources */,
 				594024CB1FEABA99006174A5 /* Main.storyboard in Resources */,
+				F789541A1FF22530007BE138 /* InfoPlist.strings in Resources */,
 				F7A0B2891FB058C400FE3B7B /* Assets.xcassets in Resources */,
 				594024CA1FEABA99006174A5 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -439,6 +503,7 @@
 				594024F01FED4F95006174A5 /* AFURLResponseSerialization.m in Sources */,
 				F7767CF31FF1FE4500992C7B /* AppManager.m in Sources */,
 				F7767CF41FF1FE4500992C7B /* BuglyManagerConfig.m in Sources */,
+				F78954101FF21B57007BE138 /* TNMineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +514,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				594024C41FEABA99006174A5 /* Base */,
+				F78954131FF221C0007BE138 /* zh-Hans */,
+				F78954151FF221C9007BE138 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -457,8 +524,31 @@
 			isa = PBXVariantGroup;
 			children = (
 				594024C61FEABA99006174A5 /* Base */,
+				F78954121FF22074007BE138 /* en */,
+				F78954141FF221C0007BE138 /* zh-Hans */,
+				F78954161FF221C9007BE138 /* zh-Hant */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F789541C1FF22530007BE138 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F789541B1FF22530007BE138 /* en */,
+				F789541D1FF22532007BE138 /* zh-Hans */,
+				F789541E1FF22534007BE138 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F78954231FF2260F007BE138 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F78954221FF2260F007BE138 /* en */,
+				F78954241FF22611007BE138 /* zh-Hans */,
+				F78954251FF22612007BE138 /* zh-Hant */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -468,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -523,6 +614,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
