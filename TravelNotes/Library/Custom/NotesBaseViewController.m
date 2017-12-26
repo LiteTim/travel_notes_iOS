@@ -63,7 +63,7 @@
         UIView *leftView =  [[UIView alloc] initWithFrame:CGRectMake(0, 0, 64, 44)];
         leftView.backgroundColor = [UIColor clearColor];
 
-        UIImage *image = [UIImage  imageNamed:@"navigationbar_back"];
+        UIImage *image = [UIImage  imageNamed:@"nav_back"];
         UIImageView *imageView =  [[UIImageView alloc] initWithFrame:CGRectMake(0,(leftView.height-image.size.height)/2,image.size.width,image.size.height)];
         imageView.image = image;
         [leftView addSubview:imageView];
@@ -109,7 +109,7 @@
         self.navigationController.navigationBar.barTintColor = self.barTintColor;
 
     }else {
-        [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbar_button_background"] forBarMetrics:UIBarMetricsDefault];
+        [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_barBg_indigo"] forBarMetrics:UIBarMetricsDefault];
 
     }
     if (self.titleColor) {

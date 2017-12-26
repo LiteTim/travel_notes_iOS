@@ -18,6 +18,7 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = RGBColor(200, 37, 78);
+    self.showCustomLeftBarButton = NO;
     
 }
 

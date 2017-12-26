@@ -337,8 +337,6 @@
 			isa = PBXGroup;
 			children = (
 				F789540B1FF21B0C007BE138 /* Controller */,
-				F789540C1FF21B0C007BE138 /* Model */,
-				F789540D1FF21B0C007BE138 /* View */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -350,20 +348,6 @@
 				F789540F1FF21B57007BE138 /* TNMineViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		F789540C1FF21B0C007BE138 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F789540D1FF21B0C007BE138 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		F7A0B2701FB058C400FE3B7B = {
